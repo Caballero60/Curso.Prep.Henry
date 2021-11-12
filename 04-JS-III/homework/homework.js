@@ -95,6 +95,7 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
+  return agregarNumeros(resultadosTest) / resultadosTest.length;
 }
 
 
@@ -102,6 +103,11 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
+  suma = 0;
+  for(var i = 0; i < numeros length; i++) {
+    suma = suma + numeros[i];
+  }
+  return suma;
 }
 
 
