@@ -56,10 +56,22 @@ function agregarStringInvertida() {
     //  }
 
   class Persona {
-    constructor(/*Escribir los argumentos que recibe el constructor*/) {
-      // Crea el constructor:
-
+    constructor(/*Escribir los argumentos que recibe el constructor*/)                                         // Crea el constructor:
+    constructor( nombre, apellido, edad, domicilio) {
+      this.nombre = nombre,
+      this.apellido = apellido,
+      this.edad = edad,
+      this.domicilio = domicilio
+      this.detalle = function() {
+        return {
+          Nombre: this.nombre,
+          Apellido: this.apellido,
+          Edad: this.edad,
+          domicilio: this.domicilio
+        }
+      }
     }
+
 }
 
 function crearInstanciaPersona(nombre, apellido, edad, dir) {
